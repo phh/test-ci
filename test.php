@@ -1,3 +1,5 @@
+<?php
+
 $echoes = [
   'wo',
   'im',
