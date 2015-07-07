@@ -7,3 +7,5 @@ php:
   - 5.2
   - 5.3
   - 5.5
+
+script: php test.php
