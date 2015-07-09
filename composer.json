@@ -8,9 +8,5 @@
     ],
     "require-dev": {
         "Peytz-WordPress/Coding-Standards": "@dev"
-    },
-    "scripts": {
-        "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs",
-        "post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs"
     }
 }
