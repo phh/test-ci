@@ -1,7 +1,14 @@
 {
     "name": "phh/test-ci",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Peytz-WordPress/Coding-Standards.git"
+        }
+    ],
     "require-dev": {
-        "wp-coding-standards/wpcs": "dev-develop"
+        "wp-coding-standards/wpcs": "dev-develop",
+        "Peytz-WordPress/Coding-Standards": "@dev"
     },
     "scripts": {
         "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs",
