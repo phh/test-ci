@@ -1,13 +1,7 @@
 {
     "name": "phh/test-ci",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Peytz-WordPress/Coding-Standards.git"
-        }
-    ],
     "require-dev": {
-        "Peytz-WordPress/Coding-Standards": "@dev",
+        "peytz-wordpress/coding-standards": "dev-master",
         "wp-coding-standards/wpcs": "dev-develop"
     },
     "scripts": {
