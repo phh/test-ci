@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Install PHP Codesniffer
-#pyrus install pear/PHP_CodeSniffer
-#phpenv rehash
+pyrus install pear/PHP_CodeSniffer
+phpenv rehash
 
 composer install
 
