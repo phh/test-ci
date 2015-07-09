@@ -5,6 +5,7 @@ pyrus install pear/PHP_CodeSniffer
 phpenv rehash
 
 composer install
+phpcs -i
 
 #git clone -b master https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wpcs
 #phpcs --config-set installed_paths wpcs
