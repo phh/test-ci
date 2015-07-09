@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-#phpcs -p -s -v -n .
+phpcs -p -s -v -n test.php
