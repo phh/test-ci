@@ -6,7 +6,7 @@ phpenv rehash
 
 # Install Coding Standards
 
-phpcs
+phpcs -p -s -v -n .
 
 # git clone https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wordpress-coding-standards
 # git clone https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wordpress-coding-standards/CodeSniffer/Standards/Peytz-WordPress
