@@ -2,5 +2,4 @@
 
 vendor/bin/phpcs -i
 
-#phpcs -i
-#phpcs -p -s -v -n test.php
+vendor/bin/phpcs -p -s -v -n test.php
