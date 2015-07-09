@@ -1,7 +1,8 @@
 {
     "name": "phh/test-ci",
     "require-dev": {
-        "peytz-wordpress/coding-standards": "dev-master"
+        "peytz-wordpress/coding-standards": "dev-master",
+        "wp-coding-standards/wpcs": "dev-develop"
     },
     "scripts": {
         "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs,vendor/peytz-wordpress/coding-standards",
