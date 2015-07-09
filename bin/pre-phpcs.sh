@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
 # Install PHP Codesniffer
-pyrus install pear/PHP_CodeSniffer
-phpenv rehash
+#pyrus install pear/PHP_CodeSniffer
+#phpenv rehash
 
-phpcs -i
+#phpcs -i
+vendor/bin/phpcs -i
 composer install
 
 #git clone -b master https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wpcs
