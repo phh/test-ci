@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
-phpcs -i
+vendor/bin/phpcs -i
+#phpcs -i
 #phpcs -p -s -v -n test.php
