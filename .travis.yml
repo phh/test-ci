@@ -18,4 +18,6 @@ env:
 before_script:
   - bash bin/phpcs.sh
 
-script: php test.php
+script:
+  - phpcs -p -s -v -n .
+  - php test.php
