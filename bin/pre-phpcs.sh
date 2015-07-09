@@ -5,7 +5,7 @@
 #phpenv rehash
 
 #phpcs -i
-bash vendor/bin/phpcs -i
+#bash vendor/bin/phpcs -i
 composer install
 
 #git clone -b master https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wpcs
