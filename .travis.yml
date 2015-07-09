@@ -17,6 +17,7 @@ env:
 
 before_script:
   - composer install
+  - vendor/bin/phpcs --config-set default_standard Peytz-WordPress
 
 script:
   - bash bin/phpcs.sh
