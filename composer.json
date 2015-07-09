@@ -7,7 +7,6 @@
         }
     ],
     "require-dev": {
-        "wp-coding-standards/wpcs": "dev-develop",
         "Peytz-WordPress/Coding-Standards": "@dev"
     },
     "scripts": {
