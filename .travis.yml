@@ -19,5 +19,4 @@ before_script:
   - bash bin/pre-phpcs.sh
 
 script:
-  - phpcs -p -s -v -n .
-  - php test.php
+  - bash bin/phpcs.sh
