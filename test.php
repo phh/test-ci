@@ -9,5 +9,5 @@ $echoes = [
 ];
 
 foreach ( $echoes as $echo ) {
-  echo $echo;
+	echo $echo;
 }
