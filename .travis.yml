@@ -17,6 +17,7 @@ env:
 
 before_script:
   - composer install
+  - composer phpcs-install
 
 script:
   - bash bin/phpcs.sh
