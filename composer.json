@@ -1,8 +1,7 @@
 {
     "name": "phh/test-ci",
     "require-dev": {
-        "peytz-wordpress/coding-standards": "dev-master",
-        "wp-coding-standards/wpcs": "dev-develop"
+        "peytz-wordpress/coding-standards": "dev-master"
     },
     "scripts": {
         "phpcs-install": [
