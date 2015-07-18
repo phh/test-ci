@@ -3,6 +3,8 @@
     "require-dev": {
         "peytz-wordpress/coding-standards": "dev-master"
     },
+	"minimum-stability": "dev",
+	"prefer-stable": true,
     "scripts": {
         "phpcs-install": [
             "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs,vendor/peytz-wordpress/coding-standards",
