@@ -1,7 +1,7 @@
 {
     "name": "phh/test-ci",
     "require-dev": {
-        "peytz-wordpress/coding-standards": "1.0.0"
+        "peytz-wordpress/coding-standards": "0.1"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
